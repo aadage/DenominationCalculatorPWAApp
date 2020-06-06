@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5973"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="DenomCalcLogo.svg"
+   inkscape:export-filename="C:\Users\mgase\Documents\docs\Code\github\AppForApps\DenominationCalculator\DenominationCalculator\Logo\DenomCalcLogo-192.png"
+   inkscape:export-xdpi="48.77"
+   inkscape:export-ydpi="48.77">
+  <defs
+     id="defs5967" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-308.87859"
+     inkscape:cy="367.78915"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5970">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-197)">
+    <g
+       id="g7166"
+       transform="matrix(1.2500011,0,0,1.2500011,-9.6345663,-61.107848)">
+      <path
+         d="m 47.707596,226.48602 a 30.000002,30.000002 0 0 1 30.000002,30 30.000002,30.000002 0 0 1 -30.000001,30 l -10e-7,-30 z"
+         sodipodi:end="1.5707963"
+         sodipodi:start="4.712389"
+         sodipodi:ry="30.000002"
+         sodipodi:rx="30.000002"
+         sodipodi:cy="256.48602"
+         sodipodi:cx="47.707596"
+         sodipodi:type="arc"
+         id="path1373-8-4-0-7-3-3-1"
+         style="opacity:1;fill:#52796f;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 47.707627,266.4861 a 30.000002,30.000002 0 0 1 -25.980764,-15 30.000002,30.000002 0 0 1 0,-30 30.000002,30.000002 0 0 1 25.980764,-15 l -1e-6,30 z"
+         sodipodi:end="4.712389"
+         sodipodi:start="1.5707963"
+         sodipodi:ry="30.000002"
+         sodipodi:rx="30.000002"
+         sodipodi:cy="236.4861"
+         sodipodi:cx="47.707626"
+         sodipodi:type="arc"
+         id="path1377-2-3-5-6-4-9-1"
+         style="opacity:1;fill:#84a98c;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 47.707627,206.4861 a 30.000002,30.000002 0 0 1 21.213203,8.78679 L 47.707626,236.4861 Z"
+         sodipodi:end="5.4977871"
+         sodipodi:start="4.712389"
+         sodipodi:ry="30.000002"
+         sodipodi:rx="30.000002"
+         sodipodi:cy="236.4861"
+         sodipodi:cx="47.707626"
+         sodipodi:type="arc"
+         id="path1379-4-4-4-0-3-8-6"
+         style="opacity:1;fill:#cad2c5;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="M 47.707597,286.48602 A 30.000002,30.000002 0 0 1 26.494391,277.69923 L 47.707596,256.48602 Z"
+         sodipodi:end="2.3561945"
+         sodipodi:start="1.5707963"
+         sodipodi:ry="30.000002"
+         sodipodi:rx="30.000002"
+         sodipodi:cy="256.48602"
+         sodipodi:cx="47.707596"
+         sodipodi:type="arc"
+         id="path1381-9-8-0-2-4-6-1"
+         style="opacity:1;fill:#354f52;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

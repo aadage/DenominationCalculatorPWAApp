@@ -1,0 +1,52 @@
+﻿        #total
+        {
+            margin-top:40px;
+        }
+        
+        #total-label
+        {
+            font-size:1.2em;
+        }
+        
+        #total-value
+        {
+            margin-left:10px;
+            font-size:1.2em;
+            font-weight:bold;
+        }
+        
+        #categoryContainer
+        {
+            margin-top:20px;
+        }
+        
+        #largestDenominationContainer
+        {
+            margin-top:10px;
+        }
+        
+        #buttonContainer
+        {
+            margin-top:20px;
+        }
+        
+        #resetContainer
+        {
+            margin-top:20px;
+        }
+        
+        .category-value
+        {
+            text-align:right;
+            padding-left:5px;
+        }
+        
+        .denomination-displayname 
+        {
+            text-align:right;
+        }
+        
+        .denomination-count
+        {
+            text-align:right;
+        }
