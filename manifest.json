@@ -1,6 +1,6 @@
 {
-  "name": "DenominationCalculator",
-  "short_name": "DenominationCalculator",
+  "name": "Denomination Calculator",
+  "short_name": "Denom Calc",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",

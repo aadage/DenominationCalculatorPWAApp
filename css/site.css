@@ -162,6 +162,7 @@ button:disabled {
 .About-container {
   text-align: left;
   max-width: 500px;
+  margin: 10px;
 }
 .About-contentBlock {
   margin-top: 20px;
@@ -176,6 +177,7 @@ button:disabled {
 .Index-container {
   text-align: left;
   max-width: 500px;
+  margin: 10px;
 }
 .Index-header {
   font-size: 20pt;
@@ -194,6 +196,7 @@ button:disabled {
 }
 .Index-categoriesInput {
   width: 100%;
+  height: 300px;
   box-sizing: border-box;
   margin-top: 10px;
   margin-right: 10px;
@@ -241,22 +244,28 @@ button:disabled {
 .Index-buttonRow button {
   margin-right: 10px;
 }
+@media (min-width: 500px) {
+  .Index-categoriesInput {
+    height: 450px;
+  }
+}
 /**********************/
 /* SavedDenomInfo.less */
 /**********************/
 .SavedDenomInfo-container {
   text-align: left;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 10px;
+  margin: 10px;
 }
 .SavedDenomInfo-header {
   font-size: 20pt;
   font-weight: bold;
   margin-bottom: 10px;
-  grid-column-start: 1;
-  grid-column-end: 3;
+}
+.SavedDenomInfo-itemContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
 }
 .SavedDenomInfo-item {
   margin-top: 10px;
@@ -282,13 +291,14 @@ button:disabled {
 /* SaveDenomInfo.less */
 /**********************/
 .SaveDenomInfo-container {
-  display: grid;
   text-align: left;
+  margin: 10px;
 }
 .SaveDenomInfo-label {
   font-size: 20pt;
   font-weight: bold;
   margin-bottom: 10px;
+  display: block;
 }
 .SaveDenomInfo-name {
   width: 250px;
@@ -309,15 +319,22 @@ button:disabled {
 /**********************/
 /* Layout.less */
 /**********************/
+/* NOTE: Choosing to put these html and body styles here instead of in base.less because they relate to the layout. */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
 .Layout-layout {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "header" "content";
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .Layout-header {
-  grid-area: header;
+  flex: none;
   background-color: #000000;
   display: grid;
   grid-template-columns: 50px auto;
@@ -339,10 +356,11 @@ button:disabled {
   grid-area: links;
 }
 .Layout-body {
-  grid-area: content;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  flex: auto;
   display: flex;
   justify-content: center;
-  margin: 5px;
 }
 .Layout-navLink {
   background-color: #000000;
@@ -364,12 +382,8 @@ button:disabled {
   color: #000000;
 }
 @media (min-width: 500px) {
-  .Layout-layout {
-    max-width: 1200px;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "content";
-  }
   .Layout-header {
+    flex: none;
     grid-area: header;
     background-color: #000000;
     display: grid;
@@ -386,7 +400,9 @@ button:disabled {
     margin-left: 10px;
   }
   .Layout-body {
-    margin: 20px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    flex: auto;
   }
   .Layout-navLink {
     font-size: 13pt;
