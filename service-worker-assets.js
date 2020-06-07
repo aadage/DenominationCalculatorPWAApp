@@ -41,7 +41,7 @@
       "url": "images\/DenomCalcLogo.svg"
     },
     {
-      "hash": "sha256-jMbTMWx7kr1B03Is\/oOp8lVFcTRIAl2iHW5aS4UTT60=",
+      "hash": "sha256-yzGHi89BvGxmNJUBAuO3q0j9PGvN7HBpmQokZC75wdo=",
       "url": "index.html"
     },
     {
